@@ -1,0 +1,34 @@
+.omMig {
+  background-color: ghostwhite;
+  border: 2px solid lightgray;
+  margin: 20px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+}
+.rubrik {
+  text-align: center;
+}
+.erfarenheter {
+  background-color: ghostwhite;
+  border: 2px solid lightgrey;
+  margin: 20px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+}
+.kontakt {
+  background-color: ghostwhite;
+  border: 2px solid lightgrey;
+  margin: 20px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+}
+img {
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
