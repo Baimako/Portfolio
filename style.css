@@ -5,6 +5,7 @@
   border-radius: 5px;
   align-items: center;
   justify-content: center;
+  font-size: 19px;
 }
 body {
   background-color: lightgray;
@@ -63,6 +64,5 @@ footer {
   text-align: center;
   padding: 5px;
   background-color: rgb(147, 119, 151);
-
   margin-top: 40px;
 }
