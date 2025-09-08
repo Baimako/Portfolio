@@ -4,46 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Sascha's portfolio,</title>
+    <title>Sascha's portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="index.html">Hem</a></li>
-          <li><a href="omMig">Mina projekt</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+        <a
+          href="https://github.com/Baimako"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+          <!-- <span>GitHub</span> -->
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+          <!-- <span>LinkedIn</span> -->
+        </a>
       </nav>
     </header>
     <main>
       <h1 class="rubrik">Välkommen till min portfolio-sida!</h1>
-      <section class="flexbox">
-        <!--Om mig-->
-        <div class="omMig">
-          <h2>Mitt namn är Sascha.</h2>
-          <p>
-            Här skriver jag lite information om mig själv, som typ att jag varit
-            allt ifrån lokalvåradre till säljare och nu gör ett försök på att
-            bli webbutvecklare.
-          </p>
-        </div>
-        <img src="images/diablo.jpg" alt="My test image" />
-      </section>
-      <!--Erfarenheter-->
-      <div class="erfarenheter">
-        <h2>Mina erfarenheter</h2>
-        <ul>
-          <li>Lokalvåradre Hsb Södra Norrland 2011 - 2017</li>
-          <li>Säljare på Kjell & Co 2017 - nuvarande (tjänstledig)</li>
-          <li>Student på Chas Academy Frontend webb och mobil 2025 -</li>
-        </ul>
-      </div>
-      <!--Kontakt-->
-      <div class="kontakt">
-        <h2>Kontakta mig</h2>
-        <p>Email: Sascha.Bergenas@chasacademy.com</p>
+      <h2>Mitt namn är Sascha.</h2>
+      <div class="container">
+        <section class="flexbox">
+          <!--Om mig-->
+          <div class="omMig">
+            <p>
+              Jag började min arbetsresa som lokalvårdare mellan 2011 och 2017,
+              där jag lärde mig värdet av noggrannhet och ansvar.
+            </p>
+            <p>
+              Sedan 2017 har jag jobbat som säljare på Kjell & Co, där jag fått
+              utlopp för både min nyfikenhet och mitt intresse för teknik, och
+              det har varit fantastiskt att få hjälpa kunder hitta rätt
+              lösningar.
+            </p>
+            <p>
+              Just nu är jag tjänstledig för att satsa helhjärtat på den här
+              kursen och följa min dröm om att bli webbutvecklare. Jag ser fram
+              emot att utvecklas, lära mig nytt och skapa saker som både är
+              snygga och användbara.
+            </p>
+          </div>
+          <img src="images/me.jpg" alt="My test image" />
+        </section>
+        <!--Erfarenheter-->
+        <section class="flexbox">
+          <div class="erfarenheter">
+            <h2>Mina erfarenheter</h2>
+            <ul>
+              <li>Lokalvåradre Hsb Södra Norrland 2011 - 2017</li>
+              <li>Säljare på Kjell & Co 2017 - nuvarande (tjänstledig)</li>
+              <li>Student på Chas Academy Frontend webb och mobil 2025 -</li>
+            </ul>
+          </div>
+          <!--Kontakt-->
+          <div class="kontakt">
+            <h2>Kontakta mig</h2>
+            <p>Email: Sascha.Bergenas@chasacademy.com</p>
+          </div>
+        </section>
       </div>
     </main>
+    <footer>
+      <p>&copy; 2025 Sascha Bergenås</p>
+    </footer>
   </body>
 </html>
